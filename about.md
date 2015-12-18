@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About RoboEagles
 ---
 # About Kennedy RoboEagles
 
@@ -14,4 +14,4 @@ The team then attends one or more regional competitions.  These competitions bri
 
 Learn more about our team:
 
-[Mission](/mission.html)
+[Mission](/mission)
