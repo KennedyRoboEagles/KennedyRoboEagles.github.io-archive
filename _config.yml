@@ -7,6 +7,13 @@ permalink:        pretty
 relative_permalinks: true
 
 paginate:         5
+# setup
+title:            Title
+tagline:          'Tagline'
+description:      'desc'
+url:              http://kennedyrobotics.com
+baseurl:          /
+
 
 gems:
 - jekyll-mentions
