@@ -25,7 +25,11 @@
           {% endif %}
         {% endif %}
       {% endfor %}
-	  
+
+	
+    </nav>
+
+		 <!-- test here --> 
     <ul>
     {% for node in site.pages %}
       {% if node.url contains base_url %}
@@ -38,9 +42,5 @@
       {% endif %}
     {% endfor %}
     </ul>
-	
-    </nav>
-
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>
