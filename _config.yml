@@ -15,6 +15,7 @@ description:      'FRC Team 3081'
 url:              http://kennedyrobotics.com
 baseurl:          /
 version:          1.0
+timezone:         America/Chicago
 
 gems:
 - jekyll-mentions

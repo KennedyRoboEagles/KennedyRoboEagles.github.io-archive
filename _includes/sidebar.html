@@ -30,6 +30,9 @@
     </nav>
 
 		 <!-- test here --> 
+		 
+		            {% include automenu url='/' sort="url" reverse=false all=false %} 
+					
     <ul>
 	
 	{% assign url_parts = page.url | split: '/' %}
