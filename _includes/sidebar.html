@@ -31,8 +31,14 @@
 
 		 <!-- test here --> 
     <ul>
+	
+	{% assign url_parts = page.url | split: '/' %}
+	{% assign url_parts_size = url_parts | size %}
+	{% assign rm = url_parts | last %}
+	{% assign base_url = page.url | replace: rm %}
+
     {% for node in site.pages %}
-	<!-- {{node.url}} {{site.baseurl}} -->
+	<!-- {{node.url}} {{base_url}} -->
       {% if node.url contains base_url %}
         {% assign node_url_parts = node.url | split: '/' %}
         {% assign node_url_parts_size = node_url_parts | size %}
